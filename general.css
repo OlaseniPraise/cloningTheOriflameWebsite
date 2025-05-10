@@ -1,0 +1,18 @@
+.flex {
+  display: flex;
+  align-items: center;
+  padding-bottom: 5.2rem;
+  gap: 2rem;
+}
+.grid {
+  display: grid;
+  column-gap: 1rem;
+  /* row-gap: 9.6rem; */
+}
+.grid--3-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid--4-cols {
+  grid-template-columns: repeat(4, 1fr);
+}
