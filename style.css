@@ -139,7 +139,6 @@ header {
 
 .search-container {
   border-radius: 10rem;
-  /* background-color: #f5f5f5; */
   font-weight: 1.6;
   height: 5.2rem;
   display: flex;
@@ -222,7 +221,6 @@ header {
   padding-bottom: 1.4rem;
   margin-bottom: 6.4rem;
   border-bottom: 3px solid #e6e6e6;
-  /* box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075); */
 }
 .hero-link-list {
   list-style: none;
@@ -261,6 +259,7 @@ header {
 
   text-align: center;
 }
+
 .btn:link,
 .btn:visited {
   display: inline-block;
@@ -361,8 +360,6 @@ header {
 
 .special-img-box {
   position: relative;
-  /* flex: 2;
-  min-width: 300px; */
 }
 .special-img {
   width: 100%;
@@ -375,7 +372,6 @@ header {
   background-color: #222;
   color: #fff;
   position: absolute;
-  /* top: 0; */
   bottom: 10%;
   left: 50%;
   box-shadow: none;
@@ -396,10 +392,7 @@ header {
 .image-grid-3-cols:hover {
   transform: scale(1.1);
 }
-/* .special-container {
-  width: 130rem;
-  margin: 0 auto;
-} */
+
 .image-grid-4-cols {
   display: block;
 
@@ -442,6 +435,8 @@ header {
   font-weight: 500;
   font-size: 1.4rem;
 }
+/* SECTION ICONS OF OUR TIME */
+/* ********************** */
 .section-icon {
   margin-bottom: 2.2rem;
 }
@@ -464,6 +459,9 @@ header {
 .margin-bottom-sm {
   margin-bottom: 3.4rem;
 }
+
+/* SECTION BEST OFFERS */
+/* ******************** */
 .best-offers-box {
   display: flex;
   align-items: center;
@@ -487,4 +485,349 @@ header {
   padding-bottom: 35%;
   opacity: 0.2;
   z-index: -1;
+}
+
+/* SECTION CALL TO ACTION */
+/* ***************** */
+.section-call-to-action {
+  margin-bottom: 12.2rem;
+}
+
+.call-to-action-box {
+  display: flex;
+  align-items: center;
+  background-color: #f5f5f5;
+  gap: 6.5rem;
+  /* width: 130rem; */
+}
+.call-to--action-image-box {
+  position: relative;
+}
+.call-to--action-image {
+  width: 100%;
+}
+.cta-image-text {
+  font-size: 2.7rem;
+  font-weight: 600;
+  color: #222;
+  display: inline-block;
+  position: absolute;
+  left: 50%;
+  bottom: 10%;
+  transform: translate(-50%);
+  white-space: nowrap;
+}
+
+.call-to-action-text-box {
+  margin-right: 6.5rem;
+}
+
+.heading-cta-box {
+  margin-bottom: 2rem;
+}
+.heading-cta {
+  font-size: 3.7rem;
+  color: #222;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  background-color: #f5f5f5;
+  white-space: nowrap;
+  /* text-align: center; */
+  background: transparent;
+}
+.heading-cta-description {
+  font-size: 1.4rem;
+  width: 45ch;
+  color: #706e6e;
+  margin-bottom: 2rem;
+}
+.after-circle-2 {
+  position: relative;
+}
+.after-circle-2::before {
+  content: "";
+  display: block;
+
+  position: absolute;
+  bottom: -50%;
+  left: -20%;
+  border-radius: 50%;
+  width: 35%;
+  background-color: #b2afef;
+  padding-bottom: 35%;
+  opacity: 0.2;
+  z-index: -1;
+}
+
+/* SECTION NOVAGE OFFERS */
+/* ***************** */
+.section-novage-offers {
+  margin-bottom: 4.8rem;
+}
+.novage-offers-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-bottom: 1rem;
+}
+.price-tag {
+  display: flex;
+  gap: 10px; /* space between the prices */
+  align-items: center;
+}
+.old-price {
+  text-decoration: line-through;
+  color: gray;
+  font-size: 1.4rem;
+}
+.new-price {
+  font-weight: bold;
+  color: #da3a00;
+  font-size: 1.4rem;
+}
+/* SECTION JOIN THE ORIFLAME */
+/* ************************ */
+.section-join-the-oriflame {
+  margin-bottom: 10.2rem;
+  padding: 3rem 7.75rem 15.5rem 7.75rem;
+  background-color: #e1f4eb;
+  width: 100%;
+  position: relative;
+}
+.section-join-the-oriflame-box {
+  letter-spacing: -0.75px;
+}
+.join-oriflame-flex-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.icon-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.icon {
+  font-size: 4.4rem;
+}
+.join-oriflme-title {
+  font-size: 2rem;
+  line-height: 1.5;
+  font-weight: 500;
+  text-align: center;
+}
+.join-oriflme-text {
+  font-size: 1.4rem;
+  line-height: 1.5;
+  font-weight: normal;
+  width: 35ch;
+  text-align: center;
+}
+
+.join-oriflame-btn:link,
+.join-oriflame-btn:visited {
+  color: #222;
+  transition: all 0.5s;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%);
+  margin-bottom: 5rem;
+}
+.join-oriflame-btn:hover,
+.join-oriflame-btn:active {
+  background-color: #b3c8be;
+}
+/* SECTION HAPPY PLACE */
+/* ******************** */
+.section-reach-your-happy-place {
+  margin-bottom: 9.6rem;
+}
+.reach-your-happy-place-title {
+  margin-bottom: 2rem;
+}
+.centering-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 3rem;
+}
+.happy-place-description {
+  font-size: 1.4rem;
+  line-height: 1.5;
+  font-weight: 200;
+  text-align: center;
+  width: 65ch;
+}
+.small-border {
+  border: 2px solid #80cdd0;
+  border-radius: 5px;
+  opacity: 1;
+  height: 0;
+  width: 8.6rem;
+}
+/* SECTION OUR TOP BRANDS */
+/* ******************** */
+.section-our-top-brands {
+  margin-bottom: 9.6rem;
+  position: relative;
+  padding-bottom: 12rem;
+}
+.our-top-brands-title {
+  margin-bottom: 2rem;
+}
+.our-top-brand-link-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+}
+.our-top-brand-btn:link,
+.our-top-brand-btn:visited {
+  display: inline-block;
+  width: 20rem; /* adjust size */
+  height: 20rem;
+  border-radius: 50%;
+  background-color: #f5f5f5;
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+  text-decoration: none;
+  /* overflow: hidden; */
+}
+.our-top-brand-logo {
+  width: 100%;
+}
+.view-all-brands-btn:link,
+.view-all-brands-btn:visited {
+  color: #222;
+  transition: all 0.5s;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%);
+  margin-bottom: 5rem;
+}
+.view-all-brands-btn:hover,
+.view-all-brands-btn:active {
+  background-color: #dcdada;
+}
+
+/* SECTION OUR TOP BRANDS */
+/* ******************** */
+
+.section-more {
+  margin-bottom: 9.6rem;
+  background-color: #f5f5f5;
+  width: 100%;
+  padding: 3rem 15.5rem;
+}
+
+.group-flex-box {
+  display: flex;
+  justify-content: space-evenly;
+}
+.link-holder {
+  display: flex;
+  align-items: center;
+  gap: 1.4rem;
+  flex-direction: column;
+}
+.link-title {
+  font-size: 1.5rem;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.group-link:link,
+.group-link:visited {
+  text-decoration: none;
+  font-size: 1.4rem;
+  display: inline-block;
+  color: #222222;
+  font-weight: 300;
+  transition: all 0.3s;
+}
+.group-link:hover,
+.group-link:active {
+  color: #68ad8c;
+  font-weight: 500;
+}
+.special-link-title {
+  font-size: 2.2rem;
+  font-weight: 500;
+}
+.our-apps {
+  width: 75%;
+}
+.special-link:link,
+.special-link:visited {
+  text-decoration: underline 0.5px;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  display: inline-block;
+  color: #222222;
+  font-weight: 500;
+  transition: all 0.3s;
+}
+.special-link:hover,
+.special-link:active {
+  color: #68ad8c;
+  font-weight: 500;
+}
+/* FOOTER */
+/* ******************** */
+footer {
+  margin-bottom: 9.6rem;
+}
+.footer-section {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 3rem;
+}
+.heading-secondary {
+  font-size: 2.4rem;
+  letter-spacing: -0.7px;
+  line-height: 2rem;
+  color: #333;
+  margin: 0 auto;
+  font-weight: 500;
+  text-align: center;
+}
+.social-media-img {
+  width: 17%;
+}
+.footer-description {
+  font-size: 1.4rem;
+  line-height: 1.5;
+  font-weight: 300;
+  text-align: center;
+  width: 65ch;
+}
+.copyright-text {
+  font-size: 1.4rem;
+  line-height: 1.5;
+  font-weight: 300;
+  text-align: center;
+  width: 65ch;
+}
+.select-country-box {
+  margin-left: 45%;
+  margin-top: 1rem;
+}
+.select-country-link:link,
+.select-country-link:visited {
+  text-decoration: underline 0.5px;
+  font-size: 1.4rem;
+  display: inline-block;
+  color: #222222;
+  font-weight: 300;
+  transition: all 0.3s;
+}
+.select-country-link:hover,
+.select-country-link:active {
+  color: #68ad8c;
+  font-weight: 300;
 }
